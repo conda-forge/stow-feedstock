@@ -17,6 +17,7 @@ build:
 
 requirements:
   build:
+    - m4 >=1.4
     - autoconf
     - automake
     - make
