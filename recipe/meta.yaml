@@ -1,5 +1,5 @@
 {% set name = "stow" %}
-{% set version = "2.4.0" %}
+{% set version = "2.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://ftp.gnu.org/gnu/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6fed67cf64deab6d3d9151a43e2c06c95cdfca6a88fab7d416f46a648b1d761d
+  sha256: 2a671e75fc207303bfe86a9a7223169c7669df0a8108ebdf1a7fe8cd2b88780b
   patches:
     - perllibdir.patch
 
